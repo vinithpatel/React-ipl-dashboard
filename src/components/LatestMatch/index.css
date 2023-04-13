@@ -1,0 +1,77 @@
+.latest-match-bg-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .latest-match-bg-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.first-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .first-card {
+    width: 60%;
+    justify-content: space-between;
+  }
+}
+.match-details-card {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.competing-team-name {
+  font-size: 22px;
+  font-weight: 500;
+}
+.match-date {
+  font-size: 20px;
+  font-weight: 400;
+}
+.match-venue {
+  font-size: 14px;
+  font-weight: 400;
+}
+.match-result {
+  font-size: 16px;
+  font-weight: 400;
+}
+.competing-team-logo {
+  height: 70px;
+}
+@media (min-width: 768px) {
+  .competing-team-logo {
+    height: 120px;
+  }
+}
+.harizental-rule {
+  border: none;
+  height: 1px;
+  background-color: white;
+  align-self: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .harizental-rule {
+    display: none;
+  }
+}
+.innings-card {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  padding: 20px;
+}
+.innigs-heading {
+  font-size: 18px;
+  font-weight: 400;
+}
+.innings-team {
+  font-size: 15px;
+  font-weight: 200;
+}
